@@ -8,19 +8,30 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
+#pragma mark - Life Cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [self addSubViews];
+    [self buildLayout];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)addSubViews {
+    
 }
-*/
+
+- (void)buildLayout {
+    
+}
+
+
+#pragma mark - Event
+
+
+#pragma mark - Tools
+
+
+#pragma mark - Getter
+
 
 @end

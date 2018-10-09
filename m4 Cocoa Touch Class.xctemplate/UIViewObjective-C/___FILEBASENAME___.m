@@ -2,14 +2,31 @@
 
 #import "___FILEBASENAME___.h"
 
+@interface ___FILEBASENAMEASIDENTIFIER___ ()
+
+@end
+
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+#pragma mark - Life Cycle
+- (instancetype)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self addSubViews];
+        [self buildLayout];
+    }
+    
+    return self;
 }
-*/
+
+- (void)addSubViews {
+    
+}
+
+- (void)buildLayout {
+    
+}
+
+#pragma mark - Getter
 
 @end
