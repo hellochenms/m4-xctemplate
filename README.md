@@ -4,11 +4,10 @@
 ------
 ### Meta
 - since：Xcode Version 10.0 (10A255)
-- 源自系统类模板，按自己的需求修改后，放到自定义类模板的目录使用
+- 复制自系统类模板，按自己的需求修改后，放到自定义类模板的目录使用
 
-### 放到哪
-- cd ~/Library/Developer/Xcode/Templates/File\ Templates
-- git clone git@github.com:hellochenms/m4-xctemplate.git
+### 目录
+- cd ~/Library/Developer/Xcode/Templates/File\ Templates/m4-xctemplate
 
 ------
 
