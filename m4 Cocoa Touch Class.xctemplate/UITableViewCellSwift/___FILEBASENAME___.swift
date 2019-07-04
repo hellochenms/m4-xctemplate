@@ -4,15 +4,25 @@ import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    // init
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        
+        addSubViews()
+        makeLayout()
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
+}
 
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    private func addSubViews() {
+        
+    }
+    
+    private func makeLayout() {
+        
+    }
 }
