@@ -10,27 +10,24 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
         
     }
     
-    // init
-    override init(frame: CGRect) {
-        super.init(frame: frame)
+    // MARK: Views
+}
+
+// MARK: - Life Cycle
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    override func viewDidLoad() {
+        super.viewDidLoad()
         
         addSubViews()
         makeLayout()
     }
     
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-}
-
-// MARK: - View
-extension ___FILEBASENAMEASIDENTIFIER___ {
     private func addSubViews() {
         
     }
     
     private func makeLayout() {
-    
+        
     }
 }
 
@@ -38,4 +35,3 @@ extension ___FILEBASENAMEASIDENTIFIER___ {
 extension ___FILEBASENAMEASIDENTIFIER___ {
     
 }
-

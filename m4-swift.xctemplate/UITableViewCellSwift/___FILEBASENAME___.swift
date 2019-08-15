@@ -3,8 +3,14 @@
 import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
-
-    // init
+    // MARK: Public
+    
+    // MARK: Constants
+    private struct Constants {
+        
+    }
+    
+    // MARK: Init
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
@@ -17,6 +23,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
     }
 }
 
+// MARK: - View
 extension ___FILEBASENAMEASIDENTIFIER___ {
     private func addSubViews() {
         
@@ -25,4 +32,9 @@ extension ___FILEBASENAMEASIDENTIFIER___ {
     private func makeLayout() {
         
     }
+}
+
+// MARK: - Public
+extension ___FILEBASENAMEASIDENTIFIER___ {
+    
 }

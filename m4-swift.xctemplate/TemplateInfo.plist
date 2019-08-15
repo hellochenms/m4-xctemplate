@@ -44,11 +44,12 @@
 			<key>Type</key>
 			<string>class</string>
 			<key>Default</key>
-			<string>UIView</string>
+			<string>NSObject</string>
 			<key>FallbackHeader</key>
 			<string>#import &lt;UIKit/UIKit.h&gt;</string>
 			<key>Values</key>
 			<array>
+				<string>NSObject</string>
 				<string>UIView</string>
 				<string>UIViewController</string>
 				<string>UITableViewCell</string>
